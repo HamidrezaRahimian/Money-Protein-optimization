@@ -1,0 +1,31 @@
+id,store,name,category,price_eur,weight_g,protein_per_100g,calories_per_100g,protein_per_pack_g,calories_per_pack,taste_score,estimated_portions,protein_type,max_units
+1,LIDL,Skyr Natur,Dairy,1.79,450,11.0,63,49.5,283.5,4.2,2,animal,4
+2,LIDL,Magerquark,Dairy,0.89,250,12.0,67,30.0,167.5,3.8,2,animal,4
+3,LIDL,High Protein Pudding Chocolate,Dairy,1.19,200,10.0,76,20.0,152.0,4.6,1,animal,4
+4,LIDL,Korniger Frischkase,Dairy,1.49,200,12.5,98,25.0,196.0,3.9,2,animal,3
+5,LIDL,Griechischer Joghurt Light,Dairy,0.99,200,8.0,73,16.0,146.0,4.1,1,animal,3
+6,LIDL,Harzer Kase,Dairy,1.49,200,30.0,126,60.0,252.0,2.8,2,animal,2
+7,LIDL,Eier 10er Pack,Eggs,2.29,450,13.0,143,58.5,643.5,4.5,5,animal,2
+8,LIDL,Hahnchenbrustfilet,Meat,4.49,400,23.0,110,92.0,440.0,4.6,2,animal,3
+9,LIDL,Putenbrust Schnitzel,Meat,4.29,400,22.5,107,90.0,428.0,4.4,2,animal,3
+10,LIDL,Rinderhack mager,Meat,4.99,300,21.0,137,63.0,411.0,4.7,2,animal,2
+11,LIDL,Thunfisch im eigenen Saft,Fish,1.49,185,25.0,116,46.2,214.6,4.0,1,animal,4
+12,LIDL,Raucherlachs,Fish,4.49,200,22.0,190,44.0,380.0,4.5,2,animal,2
+13,LIDL,Garnelen,Fish,3.49,200,18.0,85,36.0,170.0,4.4,2,animal,2
+14,LIDL,Putenbrust Aufschnitt,Cold Cuts,1.79,150,21.0,105,31.5,157.5,4.1,2,animal,3
+15,LIDL,Leichte Kasescheiben,Dairy,1.99,150,27.0,230,40.5,345.0,4.0,3,animal,2
+16,LIDL,Tofu Natur,Plant Protein,1.79,200,15.0,145,30.0,290.0,3.4,2,plant,3
+17,LIDL,Tofu Geraeuchert,Plant Protein,1.99,180,19.0,170,34.2,306.0,4.0,2,plant,3
+18,LIDL,Rote Linsen trocken,Legumes,1.69,400,25.0,340,100.0,1360.0,3.8,4,plant,2
+19,LIDL,Kichererbsen Dose,Legumes,0.89,400,7.0,120,28.0,480.0,3.7,2,plant,3
+20,LIDL,Kidneybohnen Dose,Legumes,0.89,400,8.0,110,32.0,440.0,3.6,2,plant,3
+21,LIDL,Edamame TK,Plant Protein,2.49,400,11.5,140,46.0,560.0,4.1,3,plant,2
+22,LIDL,Hummus Classic,Plant Protein,1.29,200,7.5,266,15.0,532.0,4.3,2,plant,2
+23,LIDL,Erdnussmus,Spreads,2.29,350,26.0,620,91.0,2170.0,4.5,7,plant,1
+24,LIDL,Haferflocken,Carbs,0.79,400,13.5,370,54.0,1480.0,4.2,5,plant,2
+25,LIDL,Vollkorn Wraps,Carbs,1.49,240,8.5,310,20.4,744.0,4.0,4,mixed,2
+26,LIDL,Vollkorn Pasta,Carbs,0.99,400,13.0,350,52.0,1400.0,4.1,4,plant,2
+27,LIDL,Naturreis,Carbs,1.49,250,7.5,350,18.8,875.0,3.8,3,plant,2
+28,LIDL,Brokkoli TK,Vegetables,1.29,400,3.5,34,14.0,136.0,3.7,4,plant,2
+29,LIDL,Blattspinat TK,Vegetables,1.19,450,2.8,25,12.6,112.5,3.4,4,plant,2
+30,LIDL,Erbsen TK,Vegetables,1.29,450,5.5,81,24.8,364.5,4.0,4,plant,2

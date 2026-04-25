@@ -1,0 +1,41 @@
+{
+    "fitness": {
+        "protein": 10.0,
+        "portions": 1.5,
+        "taste": 5.0,
+        "variety": 2.0,
+        "calorie_penalty": 3.0
+    },
+    
+    "Solver1": {
+        "paths": { "database": "./../data/lidl_products_30.csv" },
+        "constraints": { "budget_limit": 50.0, "kcal_target": 10000, "vector_length": 36 },
+        "ga_settings": { "pop_size": 400, "generations": 1000, "mutation_rate": 0.015, "elitism_count": 10, "tournament_size": 4, "log_interval": 100 },
+        "stop_at_target": 14388.0
+    },
+    "Solver2": {
+        "paths": { "database": "./../data/lidl_products_30.csv" },
+        "constraints": { "budget_limit": 50.0, "kcal_target": 10000, "vector_length": 36 },
+        "ga_settings": { "pop_size": 80, "generations": 1000, "mutation_rate": 0.10, "elitism_count": 4, "tournament_size": 3, "log_interval": 100 },
+        "stop_at_target": 14388.0
+    },
+    "Solver3": {
+        "paths": {
+            "database": "./../data/lidl_products_30.csv"
+        },
+        "constraints": {
+            "budget_limit": 50.0,
+            "kcal_target": 10000
+        },
+        "local_search_settings": {
+            "max_iterations": 4000,
+            "restart_attempts": 10
+        },
+        "stop_at_target": 14388.0
+    },
+    "RandomSearch": {
+        "paths": { "database": "./../data/lidl_products_30.csv" },
+        "constraints": { "budget_limit": 50.0, "kcal_target": 10000 },
+        "settings": { "total_runs": 100000, "log_interval": 5000 }
+    }
+}

@@ -1,0 +1,154 @@
+Because of the Prüfungsleistung, each of the 3 people needs a visible own responsibility, and together you must cover:
+
+3 representation alternatives
+at least 2 implemented + parameterized GA alternatives
+1 naive baseline
+1 local search baseline
+comparison with metrics and figures
+documentation of who did what clearly
+Simple 3 person role split
+Person 1: Problem + Representation A + Naive Baseline
+
+Main role: the “formalization guy”
+
+What this person does
+
+writes the Anforderungsanalyse
+writes the Problemanalyse
+defines the optimization problem clearly
+owns Representation Alternative A
+implements the naive baseline
+best choice: Random Search
+helps define fitness function together with team
+
+What to pay attention to
+
+must clearly define:
+decision vector
+objective
+constraints
+search space
+should make the problem look academic, not like “bro we shop protein”
+representation must be explained properly, not just shown in code
+naive baseline must be fair and comparable to GA
+
+Best fit for this role
+
+someone who can write okay and explain logic clearly
+not the group donkey who writes random nonsense
+Person 2: Representation B + Local Search
+
+Main role: the “algorithm mechanics guy”
+
+What this person does
+
+owns Representation Alternative B
+implements one full GA variant
+implements the local search baseline
+best choice: Hill Climbing or Simulated Annealing
+designs mutation / crossover for this representation
+helps with constraint handling
+
+What to pay attention to
+
+local search must fit the representation
+operators must match genome structure
+constraints must not be ignored like idiots
+needs to explain why this representation is good or bad
+
+Best fit for this role
+
+someone who is decent at coding and not scared of algorithm logic
+Person 3: Representation C + Evaluation + Comparison
+
+Main role: the “evidence and results guy”
+
+What this person does
+
+owns Representation Alternative C
+helps implement the second full GA variant
+handles parameter study
+handles comparison of all algorithms
+creates plots, tables, and result discussion
+helps structure final presentation
+
+What to pay attention to
+
+must compare:
+GA 1
+GA 2
+naive
+local search
+should use proper metrics, not just “this one looked nicer”
+needs repeated runs, because GA and random methods are stochastic
+figures must be clean and understandable
+
+Best fit for this role
+
+someone organized, careful, and not blind when reading results
+Shared things all 3 must do together
+
+These should be decided as a group, not by one random king:
+
+final topic wording
+dataset structure
+fitness function
+weights / priorities
+hard vs soft constraints
+final decision which 2 of the 3 representations are fully implemented
+final presentation story
+
+If you do these separately, your project will look like 3 stitched-together corpses. Bad idea.
+
+Best exact split for best grade
+
+This is the smartest version:
+
+Person 1
+
+Anforderungsanalyse
+Problemanalyse
+Representation A
+Random Search baseline
+
+Person 2
+
+Representation B
+GA Variant 1
+Local Search baseline
+
+Person 3
+
+Representation C
+GA Variant 2
+Parametrisierung
+Evaluation and plots
+Important grading trick
+
+In the documentation, every chapter should clearly show:
+
+who was hauptverantwortlich
+what exactly they designed / implemented / evaluated
+
+Otherwise the professor may think one guy worked and the other two were decorative plants 🌱
+
+What each person must especially not forget
+Person 1 must not forget
+
+formal problem definition must be really clean
+
+Person 2 must not forget
+
+operators and local search must match the representation
+
+Person 3 must not forget
+
+evaluation must be scientific, with metrics and figures, not vibes
+
+My honest recommendation
+
+Choose the roles based on actual ability, not friendship fairness.
+
+If one guy is better at writing, let him do formalization.
+If one guy is better at coding, let him do GA/local search.
+If one guy is better at structure and presentation, let him do evaluation.
